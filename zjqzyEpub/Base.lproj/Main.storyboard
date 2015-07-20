@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="NaY-dy-CD5">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--zjqzyEpub-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Doq-Ex-ffF">
+                                <rect key="frame" x="75" y="139" width="338" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Kdh-xd-NLi"/>
+                                    <constraint firstAttribute="width" constant="120" id="wgO-aA-6GA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="click me"/>
+                                <connections>
+                                    <action selector="btnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yMN-CR-cyE"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" text="epub 阅读功能 ，以“QQ阅读”和&quot;追书神器&quot; 的epub阅读功能界面为基础，进行百分百模仿。目前几乎已实现全部功能。单击上方“click me&quot;即可看到效果。模块已封装，方便开发人员进行使用。具体注意事项，请进入工程github主页查看。" translatesAutoresizingMaskIntoConstraints="NO" id="lr2-sT-aXe">
+                                <rect key="frame" x="30" y="198" width="418" height="303"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="lr2-sT-aXe" secondAttribute="bottom" constant="30" id="JT9-Oo-F6l"/>
+                            <constraint firstItem="Doq-Ex-ffF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="100" id="Ri7-5u-RdA"/>
+                            <constraint firstItem="Doq-Ex-ffF" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="Zoi-zJ-mX5"/>
+                            <constraint firstAttribute="trailing" secondItem="lr2-sT-aXe" secondAttribute="trailing" constant="30" id="jlO-Tu-7C0"/>
+                            <constraint firstItem="lr2-sT-aXe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="tEg-Qf-kee"/>
+                            <constraint firstItem="lr2-sT-aXe" firstAttribute="top" secondItem="Doq-Ex-ffF" secondAttribute="bottom" constant="30" id="xpy-na-haD"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="zjqzyEpub" id="R8N-b3-ENd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1093" y="-354"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Zes-Zc-GjK">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="NaY-dy-CD5" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="lIQ-Rm-PF1">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="pa8-hE-Myn"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h4j-bF-LzN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="375" y="-354"/>
+        </scene>
+    </scenes>
+</document>

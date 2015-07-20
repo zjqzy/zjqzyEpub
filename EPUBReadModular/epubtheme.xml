@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <item name="标准">
+        <bodycolor>#ffffff</bodycolor>
+        <textcolor>#000000</textcolor>
+    </item>
+    <item name="夜间">
+        <bodycolor>#000000</bodycolor>
+        <textcolor>#ffffff</textcolor>
+    </item>
+    <item name="护眼">
+        <bodycolor>#c7edcc</bodycolor>
+        <textcolor>#000000</textcolor>
+    </item>
+
+</root>
