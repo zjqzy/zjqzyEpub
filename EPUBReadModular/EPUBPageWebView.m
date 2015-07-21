@@ -29,6 +29,9 @@
     if (self) {
         // Initialization code
         //[self menuInit];
+//        NSLog(@"%@", NSStringFromClass([self class]));//输出 EPUBPageWebView
+//        NSLog(@"%@", NSStringFromClass([super class]));//输出 EPUBPageWebView
+        
         [self menuInit2];
     }
     return self;
