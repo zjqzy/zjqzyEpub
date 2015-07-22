@@ -5,7 +5,7 @@
 epub 阅读功能模块 ， 以“QQ阅读”和"追书神器" 的epub阅读功能为基础，
 进行百分百模仿。目前几乎已实现全部功能。单击上方“click me"即可看到效果。模块已封装，方便开发人员进行使用。
 
-Usage
+Usage(用法)
 
 1 添加文件夹 EPUBReadModular 和 thirdparty 到工程 。 其中 thirdparty 里所用到的开源工程， 如果工程已有，则不用添加
 
@@ -47,5 +47,6 @@ Usage
 }
 
 
+联系
 
 
